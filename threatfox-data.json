@@ -2,6 +2,348 @@
     "query_status": "ok",
     "data": [
         {
+            "id": "1831756",
+            "ioc": "https:\/\/galaxygraphicsprints.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "win.vidar",
+            "malware_printable": "Vidar",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
+            "confidence_level": 75,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 12:15:03 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClickFix",
+                "compromised",
+                "etherhiding",
+                "Polygon",
+                "Vidar",
+                "WordPress"
+            ]
+        },
+        {
+            "id": "1831755",
+            "ioc": "ymwntmdt.1xborokade.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 12:13:05 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1831754",
+            "ioc": "toolcvu.livebetkade.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 12:11:21 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1831753",
+            "ioc": "180.93.109.34:443",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.asyncrat",
+            "malware_printable": "AsyncRAT",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 12:00:21 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "asyncrat"
+            ]
+        },
+        {
+            "id": "1831751",
+            "ioc": "124.220.41.22:8080",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 12:00:19 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1831752",
+            "ioc": "188.121.162.153:8000",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.asyncrat",
+            "malware_printable": "AsyncRAT",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 12:00:19 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "asyncrat"
+            ]
+        },
+        {
+            "id": "1831750",
+            "ioc": "124.220.41.22:80",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 12:00:18 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1831749",
+            "ioc": "undb4pt3.questionstest.xyz",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 11:53:46 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1831748",
+            "ioc": "5dg7o57f.questionstest.xyz",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 11:52:41 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "threatcat_ch",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1831747",
+            "ioc": "118.24.128.201:64727",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 75,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 11:46:23 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "abuse_ch",
+            "tags": [
+                "CobaltStrike",
+                "drb-ra"
+            ]
+        },
+        {
+            "id": "1831746",
+            "ioc": "zthedtkr.1xbitkade.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 11:36:16 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1831745",
+            "ioc": "faogw.bankefile.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 11:00:41 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1831743",
+            "ioc": "95.182.114.29:80",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 11:00:15 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1831744",
+            "ioc": "95.182.114.29:8080",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 11:00:15 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1831742",
+            "ioc": "43.130.246.23:8080",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-13 11:00:12 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1831741",
+            "ioc": "owbzzpof.1xbetmag.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-13 10:55:48 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
             "id": "1831740",
             "ioc": "ggifzobt.hugugmadani3.xyz",
             "threat_type": "payload_delivery",
@@ -162,7 +504,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:46:13 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:46:01 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -184,7 +526,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:46:08 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:45:56 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -207,7 +549,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:45:57 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:45:46 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -230,7 +572,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:45:23 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:45:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -252,7 +594,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:45:22 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:45:11 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -275,7 +617,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:45:22 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:45:11 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -298,7 +640,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:45:15 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:45:01 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -321,7 +663,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:44:10 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 12:00:21 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -344,7 +686,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:44:06 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:58 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -367,7 +709,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:59 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:53 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -390,7 +732,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:46 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:43 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -413,7 +755,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:18 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:18 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -435,7 +777,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:12 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -457,7 +799,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:12 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -479,7 +821,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:11 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:11 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -502,7 +844,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:04 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:04 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -525,7 +867,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-13 09:43:02 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:43:03 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1985,7 +2327,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 23:45:46 UTC",
-            "last_seen": "2026-06-13 09:46:42 UTC",
+            "last_seen": "2026-06-13 11:46:31 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2640,7 +2982,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:45:16 UTC",
-            "last_seen": "2026-06-13 09:45:57 UTC",
+            "last_seen": "2026-06-13 11:45:47 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2663,7 +3005,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:44:48 UTC",
-            "last_seen": "2026-06-13 09:45:27 UTC",
+            "last_seen": "2026-06-13 11:45:17 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2685,7 +3027,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:44:44 UTC",
-            "last_seen": "2026-06-13 09:45:22 UTC",
+            "last_seen": "2026-06-13 11:45:11 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2708,7 +3050,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:57 UTC",
-            "last_seen": "2026-06-13 09:44:20 UTC",
+            "last_seen": "2026-06-13 11:44:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2731,7 +3073,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:55 UTC",
-            "last_seen": "2026-06-13 09:44:18 UTC",
+            "last_seen": "2026-06-13 11:44:10 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2753,7 +3095,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:43 UTC",
-            "last_seen": "2026-06-13 09:44:00 UTC",
+            "last_seen": "2026-06-13 11:43:54 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2776,7 +3118,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:35 UTC",
-            "last_seen": "2026-06-13 09:43:49 UTC",
+            "last_seen": "2026-06-13 11:43:45 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2799,7 +3141,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:34 UTC",
-            "last_seen": "2026-06-13 09:43:47 UTC",
+            "last_seen": "2026-06-13 11:43:43 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2822,7 +3164,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:25 UTC",
-            "last_seen": "2026-06-13 09:43:35 UTC",
+            "last_seen": "2026-06-13 11:43:33 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2845,7 +3187,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:19 UTC",
-            "last_seen": "2026-06-13 09:43:26 UTC",
+            "last_seen": "2026-06-13 11:43:26 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2867,7 +3209,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:08 UTC",
-            "last_seen": "2026-06-13 09:43:11 UTC",
+            "last_seen": "2026-06-13 11:43:11 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2890,7 +3232,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 19:43:03 UTC",
-            "last_seen": "2026-06-13 09:43:03 UTC",
+            "last_seen": "2026-06-13 11:43:04 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3590,7 +3932,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 15:24:53 UTC",
-            "last_seen": "2026-06-13 10:24:41 UTC",
+            "last_seen": "2026-06-13 11:24:45 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3612,7 +3954,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 15:24:53 UTC",
-            "last_seen": "2026-06-13 10:24:41 UTC",
+            "last_seen": "2026-06-13 11:24:45 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3634,7 +3976,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 15:24:41 UTC",
-            "last_seen": "2026-06-13 10:24:30 UTC",
+            "last_seen": "2026-06-13 11:24:33 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3656,7 +3998,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-12 15:24:41 UTC",
-            "last_seen": "2026-06-13 10:24:30 UTC",
+            "last_seen": "2026-06-13 11:24:33 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3867,7 +4209,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-12 14:26:48 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-13 11:35:50 UTC",
             "reference": null,
             "reporter": "anonymous",
             "tags": [
@@ -5326,533 +5668,6 @@
             "reporter": "threatcat_ch",
             "tags": [
                 "ClickFix"
-            ]
-        },
-        {
-            "id": "1830889",
-            "ioc": "fuwtp.tafsirnasiri.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 12:10:23 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830880",
-            "ioc": "uss6wss6.hesabdarieskandari.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 12:01:29 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830879",
-            "ioc": "qsbsd.sadreislam.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:58:34 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830878",
-            "ioc": "ecypk.sadreislam.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:57:06 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "threatcat_ch",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830877",
-            "ioc": "8.217.12.212:48080",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:46:40 UTC",
-            "last_seen": "2026-06-13 09:47:10 UTC",
-            "reference": null,
-            "reporter": "abuse_ch",
-            "tags": [
-                "CobaltStrike",
-                "drb-ra"
-            ]
-        },
-        {
-            "id": "1830876",
-            "ioc": "addeg.quranmohagegin.shop",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:24:36 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830875",
-            "ioc": "umnbp.usoleamoozesh.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:19:52 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830874",
-            "ioc": "lyrge.usoleamoozesh.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:18:41 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "threatcat_ch",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830873",
-            "ioc": "cswwy.tractor11.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:16:55 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830872",
-            "ioc": "ytuit.tractor11.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:15:38 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "threatcat_ch",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830871",
-            "ioc": "nbyap.danestanihavarzeshi.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:06:04 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830870",
-            "ioc": "sqgdb.tractor11.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:04:59 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830869",
-            "ioc": "vleqz.tractor11.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:03:34 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "threatcat_ch",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830868",
-            "ioc": "https:\/\/puz.glamisrent.com\/",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
-            "malware": "win.vidar",
-            "malware_printable": "Vidar",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-12 11:00:50 UTC",
-            "last_seen": "2026-06-12 14:24:48 UTC",
-            "reference": null,
-            "reporter": "crep1x",
-            "tags": [
-                "Vidar"
-            ]
-        },
-        {
-            "id": "1830865",
-            "ioc": "puz.gerbongsm188.top",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "win.vidar",
-            "malware_printable": "Vidar",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-12 11:00:49 UTC",
-            "last_seen": "2026-06-12 14:24:37 UTC",
-            "reference": null,
-            "reporter": "crep1x",
-            "tags": [
-                "Vidar"
-            ]
-        },
-        {
-            "id": "1830866",
-            "ioc": "https:\/\/puz.gerbongsm188.top\/",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
-            "malware": "win.vidar",
-            "malware_printable": "Vidar",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-12 11:00:49 UTC",
-            "last_seen": "2026-06-12 14:24:37 UTC",
-            "reference": null,
-            "reporter": "crep1x",
-            "tags": [
-                "Vidar"
-            ]
-        },
-        {
-            "id": "1830867",
-            "ioc": "puz.glamisrent.com",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "win.vidar",
-            "malware_printable": "Vidar",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-12 11:00:49 UTC",
-            "last_seen": "2026-06-12 14:24:48 UTC",
-            "reference": null,
-            "reporter": "crep1x",
-            "tags": [
-                "Vidar"
-            ]
-        },
-        {
-            "id": "1830864",
-            "ioc": "mdgg3n1z.vanatarsim.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 11:00:03 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "threatcat_ch",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830828",
-            "ioc": "http:\/\/94.183.232.247\/Ciabins.sh",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that delivers a malware payload",
-            "malware": "unknown",
-            "malware_printable": "Unknown malware",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:56:03 UTC",
-            "last_seen": "2026-06-12 09:20:50 UTC",
-            "reference": "https:\/\/greedybear.honeynet.org",
-            "reporter": "greedybear",
-            "tags": [
-                "honeypot"
-            ]
-        },
-        {
-            "id": "1830831",
-            "ioc": "179.43.182.70:666",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "elf.mirai",
-            "malware_printable": "Mirai",
-            "malware_alias": "Katana",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/elf.mirai",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:56:02 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "elfdigest",
-            "tags": [
-                "Mirai"
-            ]
-        },
-        {
-            "id": "1830859",
-            "ioc": "nostrendezvous.com",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "win.remus",
-            "malware_printable": "Remus",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.remus",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:56:02 UTC",
-            "last_seen": null,
-            "reference": "https:\/\/bazaar.abuse.ch\/sample\/c6dc62c4bad1c383518470c3156b4f38126b991450f050fb656d82db72d5c5a8\/",
-            "reporter": "burger",
-            "tags": [
-                "c2",
-                "RemusStealer"
-            ]
-        },
-        {
-            "id": "1830863",
-            "ioc": "esnjo.tractor11.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:40:09 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830862",
-            "ioc": "brrls.rahnemayenegaresh.site",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:38:35 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1830861",
-            "ioc": "http:\/\/nostrendezvous.com:5789",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
-            "malware": "win.remus",
-            "malware_printable": "Remus",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.remus",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:35:45 UTC",
-            "last_seen": null,
-            "reference": "https:\/\/bazaar.abuse.ch\/sample\/c6dc62c4bad1c383518470c3156b4f38126b991450f050fb656d82db72d5c5a8\/",
-            "reporter": "abuse_ch",
-            "tags": [
-                "Remus"
-            ]
-        },
-        {
-            "id": "1830860",
-            "ioc": "aknoq.tractor11.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-12 10:34:23 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "threatcat_ch",
-            "tags": [
-                "ClearFake"
             ]
         }
     ]
