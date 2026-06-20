@@ -2,6 +2,90 @@
     "query_status": "ok",
     "data": [
         {
+            "id": "1834293",
+            "ioc": "4q74zsh8.raftarsazmani.xyz",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-20 14:51:58 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake"
+            ]
+        },
+        {
+            "id": "1834291",
+            "ioc": "43.138.165.203:9002",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-20 14:00:22 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1834292",
+            "ioc": "49.233.136.227:18083",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.vshell",
+            "malware_printable": "VShell",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-20 14:00:22 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "Vshell"
+            ]
+        },
+        {
+            "id": "1834290",
+            "ioc": "195.20.115.197:8808",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.asyncrat",
+            "malware_printable": "AsyncRAT",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-20 14:00:21 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "asyncrat"
+            ]
+        },
+        {
             "id": "1834289",
             "ioc": "58shz66o.tahlilsazeha.xyz",
             "threat_type": "payload_delivery",
@@ -101,7 +185,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 11:46:49 UTC",
-            "last_seen": "2026-06-20 13:46:37 UTC",
+            "last_seen": "2026-06-20 15:46:34 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -123,7 +207,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 11:46:31 UTC",
-            "last_seen": "2026-06-20 13:46:21 UTC",
+            "last_seen": "2026-06-20 15:46:18 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -229,7 +313,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:45:43 UTC",
-            "last_seen": "2026-06-20 13:45:31 UTC",
+            "last_seen": "2026-06-20 15:45:27 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -251,7 +335,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:45:38 UTC",
-            "last_seen": "2026-06-20 13:45:25 UTC",
+            "last_seen": "2026-06-20 15:45:22 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -273,7 +357,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:45:31 UTC",
-            "last_seen": "2026-06-20 13:45:19 UTC",
+            "last_seen": "2026-06-20 15:45:16 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -295,7 +379,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:45:20 UTC",
-            "last_seen": "2026-06-20 13:45:08 UTC",
+            "last_seen": "2026-06-20 15:45:04 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -317,7 +401,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:45:10 UTC",
-            "last_seen": "2026-06-20 13:44:56 UTC",
+            "last_seen": "2026-06-20 15:44:53 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -340,7 +424,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:44:18 UTC",
-            "last_seen": "2026-06-20 13:44:11 UTC",
+            "last_seen": "2026-06-20 15:44:09 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -363,7 +447,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:44:08 UTC",
-            "last_seen": "2026-06-20 13:44:01 UTC",
+            "last_seen": "2026-06-20 15:44:00 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -386,7 +470,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-20 09:43:25 UTC",
-            "last_seen": "2026-06-20 13:43:23 UTC",
+            "last_seen": "2026-06-20 15:43:22 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2955,7 +3039,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 23:46:13 UTC",
-            "last_seen": "2026-06-20 13:46:33 UTC",
+            "last_seen": "2026-06-20 15:46:30 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2977,7 +3061,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 23:46:03 UTC",
-            "last_seen": "2026-06-20 13:46:22 UTC",
+            "last_seen": "2026-06-20 15:46:19 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2999,7 +3083,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 23:45:54 UTC",
-            "last_seen": "2026-06-20 13:46:14 UTC",
+            "last_seen": "2026-06-20 15:46:10 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3147,7 +3231,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:45:40 UTC",
-            "last_seen": "2026-06-20 13:45:54 UTC",
+            "last_seen": "2026-06-20 15:45:50 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3169,7 +3253,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:45:09 UTC",
-            "last_seen": "2026-06-20 13:45:21 UTC",
+            "last_seen": "2026-06-20 15:45:17 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3192,7 +3276,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:44:17 UTC",
-            "last_seen": "2026-06-20 13:44:23 UTC",
+            "last_seen": "2026-06-20 15:44:21 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3215,7 +3299,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:44:13 UTC",
-            "last_seen": "2026-06-20 13:44:18 UTC",
+            "last_seen": "2026-06-20 15:44:16 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3238,7 +3322,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:44:09 UTC",
-            "last_seen": "2026-06-20 13:44:14 UTC",
+            "last_seen": "2026-06-20 15:44:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3261,7 +3345,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:44:09 UTC",
-            "last_seen": "2026-06-20 13:44:14 UTC",
+            "last_seen": "2026-06-20 15:44:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3284,7 +3368,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:44:06 UTC",
-            "last_seen": "2026-06-20 13:44:11 UTC",
+            "last_seen": "2026-06-20 15:44:09 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3307,7 +3391,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:44:04 UTC",
-            "last_seen": "2026-06-20 13:44:09 UTC",
+            "last_seen": "2026-06-20 15:44:08 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3329,7 +3413,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:43:26 UTC",
-            "last_seen": "2026-06-20 13:43:28 UTC",
+            "last_seen": "2026-06-20 15:43:26 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3352,7 +3436,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:43:18 UTC",
-            "last_seen": "2026-06-20 13:43:20 UTC",
+            "last_seen": "2026-06-20 15:43:19 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3375,7 +3459,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:43:09 UTC",
-            "last_seen": "2026-06-20 13:43:10 UTC",
+            "last_seen": "2026-06-20 15:43:09 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3398,7 +3482,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-19 19:43:03 UTC",
-            "last_seen": "2026-06-20 13:43:03 UTC",
+            "last_seen": "2026-06-20 15:43:03 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3510,346 +3594,6 @@
             "reporter": "anonymous",
             "tags": [
                 "ClearFake"
-            ]
-        },
-        {
-            "id": "1834134",
-            "ioc": "81.69.253.132:80",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 15:46:33 UTC",
-            "last_seen": "2026-06-20 13:46:52 UTC",
-            "reference": null,
-            "reporter": "abuse_ch",
-            "tags": [
-                "CobaltStrike",
-                "drb-ra"
-            ]
-        },
-        {
-            "id": "1834132",
-            "ioc": "47.242.0.207:8080",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 15:46:26 UTC",
-            "last_seen": "2026-06-20 13:46:44 UTC",
-            "reference": null,
-            "reporter": "abuse_ch",
-            "tags": [
-                "CobaltStrike",
-                "drb-ra"
-            ]
-        },
-        {
-            "id": "1834133",
-            "ioc": "47.242.0.207:9999",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 15:46:26 UTC",
-            "last_seen": "2026-06-20 13:46:45 UTC",
-            "reference": null,
-            "reporter": "abuse_ch",
-            "tags": [
-                "CobaltStrike",
-                "drb-ra"
-            ]
-        },
-        {
-            "id": "1834131",
-            "ioc": "114.134.187.38:9999",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 15:45:55 UTC",
-            "last_seen": "2026-06-20 13:46:13 UTC",
-            "reference": null,
-            "reporter": "abuse_ch",
-            "tags": [
-                "CobaltStrike",
-                "drb-ra"
-            ]
-        },
-        {
-            "id": "1834130",
-            "ioc": "aygi86ej.tahlilsazeha.xyz",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 15:08:49 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake"
-            ]
-        },
-        {
-            "id": "1834129",
-            "ioc": "60.205.129.61:30244",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 15:00:17 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1834127",
-            "ioc": "49.232.169.67:8084",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 15:00:16 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1834128",
-            "ioc": "49.232.169.67:8085",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 15:00:16 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1834126",
-            "ioc": "31.207.4.28:4444",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 15:00:15 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1834125",
-            "ioc": "1.13.158.52:8084",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 15:00:14 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1834124",
-            "ioc": "tasknew35630.duckdns.org",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "win.asyncrat",
-            "malware_printable": "AsyncRAT",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 14:50:34 UTC",
-            "last_seen": null,
-            "reference": "https:\/\/bazaar.abuse.ch\/sample\/b57c3186303f4a56ac70699bdef1aede047db5a118370f93df0171d9d2add0d6\/",
-            "reporter": "abuse_ch",
-            "tags": [
-                "asyncrat"
-            ]
-        },
-        {
-            "id": "1834123",
-            "ioc": "bogota123.duckdns.org",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "win.asyncrat",
-            "malware_printable": "AsyncRAT",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-19 14:40:32 UTC",
-            "last_seen": null,
-            "reference": "https:\/\/bazaar.abuse.ch\/sample\/3fc4b44fdddb35fc904b4aa619de1cacfe1f73490633e22fd163007fe59b2353\/",
-            "reporter": "abuse_ch",
-            "tags": [
-                "asyncrat"
-            ]
-        },
-        {
-            "id": "1834112",
-            "ioc": "151.239.24.122:8080",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 14:00:24 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "CobaltStrike"
-            ]
-        },
-        {
-            "id": "1834110",
-            "ioc": "151.239.24.122:443",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 14:00:22 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "CobaltStrike"
-            ]
-        },
-        {
-            "id": "1834111",
-            "ioc": "151.239.24.122:80",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 14:00:22 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "CobaltStrike"
-            ]
-        },
-        {
-            "id": "1834109",
-            "ioc": "66.118.237.171:8808",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.asyncrat",
-            "malware_printable": "AsyncRAT",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-19 14:00:21 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "asyncrat"
             ]
         }
     ]
