@@ -2,6 +2,299 @@
     "query_status": "ok",
     "data": [
         {
+            "id": "1840402",
+            "ioc": "bet808.app",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-30 21:25:37 UTC",
+            "last_seen": "2026-06-30 21:25:40 UTC",
+            "reference": null,
+            "reporter": "Gi7w0rm",
+            "tags": [
+                "30June2026",
+                "ClearFake",
+                "Commandline",
+                "macOS"
+            ]
+        },
+        {
+            "id": "1840401",
+            "ioc": "zaserz.com",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
+            "malware": "win.vidar",
+            "malware_printable": "Vidar",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 21:16:28 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "c2",
+                "ClickFix",
+                "Polygon"
+            ]
+        },
+        {
+            "id": "1840400",
+            "ioc": "91.92.137.12:1604",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.quasar_rat",
+            "malware_printable": "Quasar RAT",
+            "malware_alias": "CinaRAT,QuasarRAT,Yggdrasil",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.quasar_rat",
+            "confidence_level": 75,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:47:49 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "navneeet",
+            "tags": [
+                "c2",
+                "QuasarRAT"
+            ]
+        },
+        {
+            "id": "1840399",
+            "ioc": "superwebprotection.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:39:00 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "threatcat_ch",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1840398",
+            "ioc": "exclusivecloudprotection.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:38:58 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "threatcat_ch",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1840397",
+            "ioc": "extrafireprotection.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:38:57 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "threatcat_ch",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1840396",
+            "ioc": "63.250.57.91:444",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.asyncrat",
+            "malware_printable": "AsyncRAT",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.asyncrat",
+            "confidence_level": 75,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:36:02 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "navneeet",
+            "tags": [
+                "1472D1643B294C63AF66357816F6E5E66B427EBD",
+                "asyncrat",
+                "c2"
+            ]
+        },
+        {
+            "id": "1840395",
+            "ioc": "zaserz.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:35:07 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "threatcat_ch",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1840394",
+            "ioc": "cess.digishart.news",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:16:31 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake",
+                "win-0x4679",
+                "Windows"
+            ]
+        },
+        {
+            "id": "1840393",
+            "ioc": "digishart.news",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-30 20:16:15 UTC",
+            "last_seen": "2026-06-30 20:16:20 UTC",
+            "reference": null,
+            "reporter": "Gi7w0rm",
+            "tags": [
+                "30June2026",
+                "ClearFake",
+                "Commandline",
+                "DomainShadowing",
+                "Windows"
+            ]
+        },
+        {
+            "id": "1840392",
+            "ioc": "vxg18bmc.btyek.baby",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:08:06 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake",
+                "mac-0x68dc",
+                "macOS"
+            ]
+        },
+        {
+            "id": "1840391",
+            "ioc": "btyek.baby",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-06-30 20:06:35 UTC",
+            "last_seen": "2026-06-30 20:06:39 UTC",
+            "reference": null,
+            "reporter": "Gi7w0rm",
+            "tags": [
+                "30June2026",
+                "ClearFake",
+                "Commandline",
+                "macOS"
+            ]
+        },
+        {
+            "id": "1840371",
+            "ioc": "206.189.94.70:9034",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "elf.aisuru",
+            "malware_printable": "Aisuru",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/elf.aisuru",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-06-30 20:05:19 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "Bitsight",
+            "tags": [
+                "AISURU",
+                "c2"
+            ]
+        },
+        {
             "id": "1840388",
             "ioc": "91.92.43.194:80",
             "threat_type": "botnet_cc",
@@ -15,7 +308,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:46:09 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:42 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -37,7 +330,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:46:09 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:42 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -59,7 +352,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:46:09 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:42 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -81,7 +374,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:46:08 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:42 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -103,7 +396,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:46:05 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:39 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -125,7 +418,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:45:59 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:35 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -147,7 +440,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:45:59 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:45:35 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -169,7 +462,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:45:16 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:44:53 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -192,7 +485,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:44:27 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:44:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -214,7 +507,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:44:27 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:44:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -236,7 +529,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:44:22 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:44:07 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -258,7 +551,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:44:21 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:44:06 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -280,7 +573,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:44:14 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:59 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -302,7 +595,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:43:26 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:21 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -324,7 +617,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:43:26 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:21 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -346,7 +639,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:43:26 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:21 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -368,7 +661,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:43:22 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:18 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -391,7 +684,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:43:15 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -413,35 +706,13 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 19:43:15 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 20:43:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
                 "asyncrat",
                 "drb-ra",
                 "RAT"
-            ]
-        },
-        {
-            "id": "1840371",
-            "ioc": "206.189.94.70:9034",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "elf.aisuru",
-            "malware_printable": "Aisuru",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/elf.aisuru",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-30 19:40:52 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "Bitsight",
-            "tags": [
-                "AISURU",
-                "c2"
             ]
         },
         {
@@ -874,7 +1145,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:45:50 UTC",
-            "last_seen": "2026-06-30 19:46:05 UTC",
+            "last_seen": "2026-06-30 20:45:39 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -896,7 +1167,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:45:46 UTC",
-            "last_seen": "2026-06-30 19:45:59 UTC",
+            "last_seen": "2026-06-30 20:45:35 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -919,7 +1190,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:45:33 UTC",
-            "last_seen": "2026-06-30 19:45:46 UTC",
+            "last_seen": "2026-06-30 20:45:23 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -942,7 +1213,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:45:33 UTC",
-            "last_seen": "2026-06-30 19:45:47 UTC",
+            "last_seen": "2026-06-30 20:45:23 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -965,7 +1236,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:45:21 UTC",
-            "last_seen": "2026-06-30 19:45:35 UTC",
+            "last_seen": "2026-06-30 20:45:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -988,7 +1259,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:45:13 UTC",
-            "last_seen": "2026-06-30 19:45:26 UTC",
+            "last_seen": "2026-06-30 20:45:02 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1010,7 +1281,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:44:15 UTC",
-            "last_seen": "2026-06-30 19:44:27 UTC",
+            "last_seen": "2026-06-30 20:44:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1032,7 +1303,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:56 UTC",
-            "last_seen": "2026-06-30 19:44:08 UTC",
+            "last_seen": "2026-06-30 20:43:54 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1055,7 +1326,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:56 UTC",
-            "last_seen": "2026-06-30 19:44:08 UTC",
+            "last_seen": "2026-06-30 20:43:54 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1078,7 +1349,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:47 UTC",
-            "last_seen": "2026-06-30 19:43:56 UTC",
+            "last_seen": "2026-06-30 20:43:46 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1101,7 +1372,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:45 UTC",
-            "last_seen": "2026-06-30 19:43:54 UTC",
+            "last_seen": "2026-06-30 20:43:44 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1124,7 +1395,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:27 UTC",
-            "last_seen": "2026-06-30 19:43:33 UTC",
+            "last_seen": "2026-06-30 20:43:27 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1147,7 +1418,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:13 UTC",
-            "last_seen": "2026-06-30 19:43:16 UTC",
+            "last_seen": "2026-06-30 20:43:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1169,7 +1440,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:12 UTC",
-            "last_seen": "2026-06-30 19:43:15 UTC",
+            "last_seen": "2026-06-30 20:43:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1192,7 +1463,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:07 UTC",
-            "last_seen": "2026-06-30 19:43:08 UTC",
+            "last_seen": "2026-06-30 20:43:07 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1215,7 +1486,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:07 UTC",
-            "last_seen": "2026-06-30 19:43:09 UTC",
+            "last_seen": "2026-06-30 20:43:07 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1238,7 +1509,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:07 UTC",
-            "last_seen": "2026-06-30 19:43:09 UTC",
+            "last_seen": "2026-06-30 20:43:07 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1261,7 +1532,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:43:03 UTC",
-            "last_seen": "2026-06-30 19:43:05 UTC",
+            "last_seen": "2026-06-30 20:43:04 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1284,7 +1555,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:25:50 UTC",
-            "last_seen": "2026-06-30 19:25:54 UTC",
+            "last_seen": "2026-06-30 21:25:50 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1306,7 +1577,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:25:50 UTC",
-            "last_seen": "2026-06-30 19:25:54 UTC",
+            "last_seen": "2026-06-30 21:25:50 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1328,7 +1599,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:25:38 UTC",
-            "last_seen": "2026-06-30 19:25:31 UTC",
+            "last_seen": "2026-06-30 21:25:28 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -1350,7 +1621,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 17:25:37 UTC",
-            "last_seen": "2026-06-30 19:25:31 UTC",
+            "last_seen": "2026-06-30 21:25:28 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2190,7 +2461,7 @@
             "confidence_level": 90,
             "is_compromised": false,
             "first_seen": "2026-06-30 13:58:41 UTC",
-            "last_seen": null,
+            "last_seen": "2026-06-30 21:16:28 UTC",
             "reference": null,
             "reporter": "anonymous",
             "tags": [
@@ -2527,7 +2798,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 11:46:50 UTC",
-            "last_seen": "2026-06-30 19:46:27 UTC",
+            "last_seen": "2026-06-30 20:45:58 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2884,7 +3155,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:46:23 UTC",
-            "last_seen": "2026-06-30 19:46:10 UTC",
+            "last_seen": "2026-06-30 20:45:43 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2906,7 +3177,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:44:26 UTC",
-            "last_seen": "2026-06-30 19:44:25 UTC",
+            "last_seen": "2026-06-30 20:44:10 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2929,7 +3200,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:44:18 UTC",
-            "last_seen": "2026-06-30 19:44:18 UTC",
+            "last_seen": "2026-06-30 20:44:03 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2952,7 +3223,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:43:50 UTC",
-            "last_seen": "2026-06-30 19:43:51 UTC",
+            "last_seen": "2026-06-30 20:43:41 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2974,7 +3245,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:43:39 UTC",
-            "last_seen": "2026-06-30 19:43:39 UTC",
+            "last_seen": "2026-06-30 20:43:32 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -2997,7 +3268,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:43:36 UTC",
-            "last_seen": "2026-06-30 19:43:36 UTC",
+            "last_seen": "2026-06-30 20:43:30 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3019,7 +3290,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:43:27 UTC",
-            "last_seen": "2026-06-30 19:43:28 UTC",
+            "last_seen": "2026-06-30 20:43:23 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3042,7 +3313,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:43:24 UTC",
-            "last_seen": "2026-06-30 19:43:25 UTC",
+            "last_seen": "2026-06-30 20:43:20 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -3064,7 +3335,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-30 09:43:06 UTC",
-            "last_seen": "2026-06-30 19:43:06 UTC",
+            "last_seen": "2026-06-30 20:43:05 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -4458,7 +4729,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:16 UTC",
-            "last_seen": "2026-06-30 19:38:10 UTC",
+            "last_seen": "2026-06-30 20:41:04 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4480,7 +4751,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:16 UTC",
-            "last_seen": "2026-06-30 19:39:27 UTC",
+            "last_seen": "2026-06-30 20:39:55 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4502,7 +4773,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:15 UTC",
-            "last_seen": "2026-06-30 19:38:53 UTC",
+            "last_seen": "2026-06-30 20:40:17 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4524,7 +4795,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:15 UTC",
-            "last_seen": "2026-06-30 19:37:57 UTC",
+            "last_seen": "2026-06-30 20:40:06 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4546,7 +4817,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:15 UTC",
-            "last_seen": "2026-06-30 19:47:33 UTC",
+            "last_seen": "2026-06-30 20:39:43 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4568,7 +4839,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:14 UTC",
-            "last_seen": "2026-06-30 19:37:00 UTC",
+            "last_seen": "2026-06-30 20:41:49 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4590,7 +4861,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:14 UTC",
-            "last_seen": "2026-06-30 19:39:15 UTC",
+            "last_seen": "2026-06-30 20:40:29 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4612,7 +4883,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:13 UTC",
-            "last_seen": "2026-06-30 19:39:04 UTC",
+            "last_seen": "2026-06-30 20:40:41 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4634,7 +4905,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:11 UTC",
-            "last_seen": "2026-06-30 19:36:02 UTC",
+            "last_seen": "2026-06-30 20:41:26 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -4656,7 +4927,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-06-30 04:50:10 UTC",
-            "last_seen": "2026-06-30 19:39:38 UTC",
+            "last_seen": "2026-06-30 20:40:52 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -5106,7 +5377,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-06-29 23:46:01 UTC",
-            "last_seen": "2026-06-30 19:46:36 UTC",
+            "last_seen": "2026-06-30 20:46:08 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -5281,69 +5552,6 @@
             "reporter": "crep1x",
             "tags": [
                 "Vidar"
-            ]
-        },
-        {
-            "id": "1840171",
-            "ioc": "172.245.226.124:443",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.cobalt_strike",
-            "malware_printable": "Cobalt Strike",
-            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-06-29 21:05:05 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "CobaltStrike"
-            ]
-        },
-        {
-            "id": "1840160",
-            "ioc": "http:\/\/176.65.144.73\/312b423bf6dd463f8d15.php",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
-            "malware": "win.stealc",
-            "malware_printable": "Stealc",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.stealc",
-            "confidence_level": 75,
-            "is_compromised": false,
-            "first_seen": "2026-06-29 20:20:32 UTC",
-            "last_seen": "2026-06-30 19:03:27 UTC",
-            "reference": "https:\/\/bazaar.abuse.ch\/sample\/25572b53676f1041dfec6ddd3ac1b47c5db8c384c98aac6238c463ada08ad523\/",
-            "reporter": "abuse_ch",
-            "tags": [
-                "Stealc"
-            ]
-        },
-        {
-            "id": "1840159",
-            "ioc": "158.160.75.185:40644",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.raton_rat",
-            "malware_printable": "RatonRAT",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.raton_rat",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-06-29 20:20:07 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "abuse_ch",
-            "tags": [
-                "RatonRAT"
             ]
         }
     ]
