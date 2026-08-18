@@ -2,6 +2,27 @@
     "query_status": "ok",
     "data": [
         {
+            "id": "1880868",
+            "ioc": "https:\/\/chappan.lol\/api\/v1\/status",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "js.kongtuke",
+            "malware_printable": "KongTuke",
+            "malware_alias": "TAG-124,js.LandUpdate808",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.kongtuke",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 15:27:21 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "monitorsg",
+            "tags": [
+                "Kongtuke"
+            ]
+        },
+        {
             "id": "1880888",
             "ioc": "159.89.193.17:8080",
             "threat_type": "botnet_cc",
@@ -14,13 +35,1775 @@
             "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/elf.aisuru",
             "confidence_level": 100,
             "is_compromised": false,
-            "first_seen": "2026-08-18 14:29:28 UTC",
+            "first_seen": "2026-08-18 15:27:20 UTC",
             "last_seen": null,
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
                 "AISURU",
                 "c2"
+            ]
+        },
+        {
+            "id": "1880889",
+            "ioc": "https:\/\/ges.1131gg.org",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
+            "malware": "win.vidar",
+            "malware_printable": "Vidar",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:27:20 UTC",
+            "last_seen": "2026-08-18 15:27:59 UTC",
+            "reference": null,
+            "reporter": "Bitsight",
+            "tags": [
+                "903ac24fcd9670b9ef2e674243d550d8",
+                "c2",
+                "Loader",
+                "stealer",
+                "Vidar"
+            ]
+        },
+        {
+            "id": "1880965",
+            "ioc": "te4n8jbw0v.workers.dev",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
+            "malware": "php.shin_webshell",
+            "malware_printable": "php.shin_webshell",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/php.shin_webshell",
+            "confidence_level": 50,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 15:27:20 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "xscon",
+            "tags": [
+                "Cloudflare",
+                "gif",
+                "PHP",
+                "webshell",
+                "WordPress",
+                "workers.dev",
+                "wp-admin"
+            ]
+        },
+        {
+            "id": "1880969",
+            "ioc": "rzuwk0yv.spirosnet.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:19:53 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake",
+                "mac-0x68dc",
+                "macOS"
+            ]
+        },
+        {
+            "id": "1880967",
+            "ioc": "43.136.178.239:22",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 15:05:06 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1880968",
+            "ioc": "43.136.178.239:8080",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 15:05:06 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1880966",
+            "ioc": "39.105.200.188:18080",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.cobalt_strike",
+            "malware_printable": "Cobalt Strike",
+            "malware_alias": "Agentemis,BEACON,CobaltStrike,cobeacon",
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.cobalt_strike",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 15:05:05 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "CobaltStrike"
+            ]
+        },
+        {
+            "id": "1880964",
+            "ioc": "https:\/\/imworthdefending.org\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:07 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/imworthdefending.org",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880954",
+            "ioc": "https:\/\/pakaviator.net.pk\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/pakaviator.net.pk",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880955",
+            "ioc": "https:\/\/pakaviatoor.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/pakaviatoor.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880956",
+            "ioc": "https:\/\/pak365game.pk\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/pak365game.pk",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880957",
+            "ioc": "https:\/\/www.makttravels.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/www.makttravels.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880958",
+            "ioc": "https:\/\/k666game.pk\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/k666game.pk",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880959",
+            "ioc": "https:\/\/leannepearson.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/leannepearson.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880960",
+            "ioc": "https:\/\/laverie-saint-marc.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/laverie-saint-marc.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880961",
+            "ioc": "https:\/\/laprensadecojedes.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/laprensadecojedes.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880962",
+            "ioc": "https:\/\/kitkateventz.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/kitkateventz.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880963",
+            "ioc": "https:\/\/www.jahmadartstudio.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:06 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/www.jahmadartstudio.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880946",
+            "ioc": "https:\/\/techfixlogic.info\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/techfixlogic.info",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880947",
+            "ioc": "https:\/\/unifm1027.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/unifm1027.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880948",
+            "ioc": "https:\/\/s92bet.net\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/s92bet.net",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880949",
+            "ioc": "https:\/\/spinwinpkgame.net\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/spinwinpkgame.net",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880950",
+            "ioc": "https:\/\/rr3game.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/rr3game.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880951",
+            "ioc": "https:\/\/royalpkr.pk\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/royalpkr.pk",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880952",
+            "ioc": "https:\/\/purekhaddo.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/purekhaddo.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880953",
+            "ioc": "https:\/\/pkcasino.org\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:05 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/pkcasino.org",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880942",
+            "ioc": "https:\/\/winbdd.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:04 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/winbdd.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880943",
+            "ioc": "https:\/\/thetechinstruct.info\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:04 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/thetechinstruct.info",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880944",
+            "ioc": "https:\/\/www.waouhmonde.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:04 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/www.waouhmonde.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880945",
+            "ioc": "https:\/\/vizanstudios.com\/",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that delivers a malware payload",
+            "malware": "unknown",
+            "malware_printable": "Unknown malware",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
+            "confidence_level": 90,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 15:01:04 UTC",
+            "last_seen": null,
+            "reference": "https:\/\/clickfix.carsonww.com\/domains\/vizanstudios.com",
+            "reporter": "CarsonWilliams",
+            "tags": [
+                "ClickFix"
+            ]
+        },
+        {
+            "id": "1880941",
+            "ioc": "http:\/\/kupzovo.shop:7567\/workspaces",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
+            "malware": "win.remus",
+            "malware_printable": "Remus",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.remus",
+            "confidence_level": 75,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 14:51:22 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "Myrtus0x0",
+            "tags": [
+                "Remus"
+            ]
+        },
+        {
+            "id": "1880940",
+            "ioc": "wyuuzguim.belly-flush.us",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-08-18 14:47:06 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake",
+                "win-0xa770",
+                "Windows"
+            ]
+        },
+        {
+            "id": "1880939",
+            "ioc": "https:\/\/ges.sm188dadu.top\/",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "url",
+            "ioc_type_desc": "URL that is used for botnet Command&control (C&C)",
+            "malware": "win.vidar",
+            "malware_printable": "Vidar",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:40:05 UTC",
+            "last_seen": "2026-08-18 15:25:24 UTC",
+            "reference": null,
+            "reporter": "crep1x",
+            "tags": [
+                "Vidar"
+            ]
+        },
+        {
+            "id": "1880938",
+            "ioc": "ges.sm188dadu.top",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
+            "malware": "win.vidar",
+            "malware_printable": "Vidar",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:40:04 UTC",
+            "last_seen": "2026-08-18 15:25:24 UTC",
+            "reference": null,
+            "reporter": "crep1x",
+            "tags": [
+                "Vidar"
+            ]
+        },
+        {
+            "id": "1880927",
+            "ioc": "spinwinpkgame.net",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880928",
+            "ioc": "techfixlogic.info",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880929",
+            "ioc": "thefairygardenwholesale.co.uk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880930",
+            "ioc": "thetechinstruct.info",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880931",
+            "ioc": "unifm1027.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880932",
+            "ioc": "visemploi.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880933",
+            "ioc": "vizanstudios.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880934",
+            "ioc": "waouhmonde.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880935",
+            "ioc": "winbdd.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880936",
+            "ioc": "winrupees.com.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880937",
+            "ioc": "zs777game.net",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:21 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880910",
+            "ioc": "laprensadecojedes.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880911",
+            "ioc": "laverie-saint-marc.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880912",
+            "ioc": "leannepearson.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880913",
+            "ioc": "makttravels.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880914",
+            "ioc": "mantplus.com.pe",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880915",
+            "ioc": "marcyscake.it",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880916",
+            "ioc": "pak365game.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880917",
+            "ioc": "pakaviatoor.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880918",
+            "ioc": "pakaviator.net.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880919",
+            "ioc": "pkcasino.org",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880920",
+            "ioc": "purekhaddo.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880921",
+            "ioc": "royalpkr.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880922",
+            "ioc": "royalxcasinodownload.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880923",
+            "ioc": "rr3game.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880924",
+            "ioc": "s92bet.net",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880925",
+            "ioc": "sath.es",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880926",
+            "ioc": "skep777.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:20 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880893",
+            "ioc": "777szgame.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880894",
+            "ioc": "8jjbetgame.net",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880895",
+            "ioc": "analisibellomo.it",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880896",
+            "ioc": "bit2solutions.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880897",
+            "ioc": "bytesolving.info",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880898",
+            "ioc": "caltexpoint.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880899",
+            "ioc": "clubpkgame.vip",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880900",
+            "ioc": "detoxiones.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880901",
+            "ioc": "dk999app.com.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880902",
+            "ioc": "excel-piscines.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880903",
+            "ioc": "galonz.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880904",
+            "ioc": "gbazzar.in",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880905",
+            "ioc": "gutykids.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880906",
+            "ioc": "imworthdefending.org",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880907",
+            "ioc": "jahmadartstudio.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880908",
+            "ioc": "k666game.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880909",
+            "ioc": "kitkateventz.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:19 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880891",
+            "ioc": "26grp.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:18 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880892",
+            "ioc": "3pattipkr.com.pk",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.iclickfix",
+            "malware_printable": "IClickFix",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.iclickfix",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:39:18 UTC",
+            "last_seen": null,
+            "reference": "",
+            "reporter": "varysz",
+            "tags": [
+                "ClickFix",
+                "web-inject"
+            ]
+        },
+        {
+            "id": "1880890",
+            "ioc": "ges.1131gg.org",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
+            "malware": "win.vidar",
+            "malware_printable": "Vidar",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vidar",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-18 14:35:07 UTC",
+            "last_seen": "2026-08-18 15:25:35 UTC",
+            "reference": null,
+            "reporter": "crep1x",
+            "tags": [
+                "Vidar"
             ]
         },
         {
@@ -338,30 +2121,6 @@
             ]
         },
         {
-            "id": "1880873",
-            "ioc": "codecubicle.co.in",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "win.remcos",
-            "malware_printable": "Remcos",
-            "malware_alias": "RemcosRAT,Remvio,Socmer",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.remcos",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-08-18 14:14:55 UTC",
-            "last_seen": null,
-            "reference": "https:\/\/www.filescan.io\/uploads\/6a84687d691a5b93ecd6b7f5\/reports\/48963123-3020-4cb6-ac50-a3ddf0a9e976\/threat_indicators",
-            "reporter": "TranThiTamTV",
-            "tags": [
-                "botnet",
-                "c2",
-                "remcos",
-                "RemcosRAT"
-            ]
-        },
-        {
             "id": "1880872",
             "ioc": "https:\/\/junjun002.top\/",
             "threat_type": "botnet_cc",
@@ -449,27 +2208,6 @@
             "tags": [
                 "c2",
                 "ClickFix"
-            ]
-        },
-        {
-            "id": "1880868",
-            "ioc": "https:\/\/chappan.lol\/api\/v1\/status",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that delivers a malware payload",
-            "malware": "js.kongtuke",
-            "malware_printable": "KongTuke",
-            "malware_alias": "TAG-124,js.LandUpdate808",
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.kongtuke",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-08-18 14:08:50 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "monitorsg",
-            "tags": [
-                "Kongtuke"
             ]
         },
         {
@@ -722,7 +2460,7 @@
             "confidence_level": 100,
             "is_compromised": true,
             "first_seen": "2026-08-18 14:03:06 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:10:32 UTC",
             "reference": "https:\/\/infosec.exchange\/@monitorsg\/117116679039975377",
             "reporter": "monitorsg",
             "tags": [
@@ -12242,7 +13980,7 @@
             "confidence_level": 50,
             "is_compromised": false,
             "first_seen": "2026-08-18 11:58:23 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:05:07 UTC",
             "reference": "https:\/\/www.shodan.io\/host\/182.92.117.223#55000",
             "reporter": "juroots",
             "tags": [
@@ -13900,7 +15638,7 @@
             "confidence_level": 50,
             "is_compromised": false,
             "first_seen": "2026-08-18 11:56:08 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:05:05 UTC",
             "reference": "https:\/\/www.shodan.io\/host\/169.58.82.229#8055",
             "reporter": "juroots",
             "tags": [
@@ -13924,7 +15662,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 11:48:07 UTC",
-            "last_seen": "2026-08-18 13:47:15 UTC",
+            "last_seen": "2026-08-18 14:47:43 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -13946,7 +15684,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 11:47:40 UTC",
-            "last_seen": "2026-08-18 13:46:52 UTC",
+            "last_seen": "2026-08-18 14:47:20 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14765,7 +16503,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:47:49 UTC",
-            "last_seen": "2026-08-18 13:46:46 UTC",
+            "last_seen": "2026-08-18 14:47:14 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14787,7 +16525,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:47:23 UTC",
-            "last_seen": "2026-08-18 13:46:24 UTC",
+            "last_seen": "2026-08-18 14:46:49 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14809,7 +16547,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:47:23 UTC",
-            "last_seen": "2026-08-18 13:46:24 UTC",
+            "last_seen": "2026-08-18 14:46:49 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14831,7 +16569,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:46:48 UTC",
-            "last_seen": "2026-08-18 13:45:58 UTC",
+            "last_seen": "2026-08-18 14:46:20 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14855,7 +16593,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:46:48 UTC",
-            "last_seen": "2026-08-18 13:45:58 UTC",
+            "last_seen": "2026-08-18 14:46:20 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14879,7 +16617,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:46:37 UTC",
-            "last_seen": "2026-08-18 13:45:49 UTC",
+            "last_seen": "2026-08-18 14:46:09 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14901,7 +16639,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:46:30 UTC",
-            "last_seen": "2026-08-18 13:45:44 UTC",
+            "last_seen": "2026-08-18 14:46:03 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14923,7 +16661,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:45:34 UTC",
-            "last_seen": "2026-08-18 13:44:57 UTC",
+            "last_seen": "2026-08-18 14:45:15 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14945,7 +16683,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:45:20 UTC",
-            "last_seen": "2026-08-18 13:44:48 UTC",
+            "last_seen": "2026-08-18 14:44:58 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14967,7 +16705,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:45:13 UTC",
-            "last_seen": "2026-08-18 13:44:43 UTC",
+            "last_seen": "2026-08-18 14:44:52 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -14990,7 +16728,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:45:11 UTC",
-            "last_seen": "2026-08-18 13:44:42 UTC",
+            "last_seen": "2026-08-18 14:44:52 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15013,7 +16751,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:45:09 UTC",
-            "last_seen": "2026-08-18 13:44:41 UTC",
+            "last_seen": "2026-08-18 14:44:50 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15035,7 +16773,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:53 UTC",
-            "last_seen": "2026-08-18 13:44:32 UTC",
+            "last_seen": "2026-08-18 14:44:40 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15057,7 +16795,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:49 UTC",
-            "last_seen": "2026-08-18 13:44:30 UTC",
+            "last_seen": "2026-08-18 14:44:38 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15079,7 +16817,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:48 UTC",
-            "last_seen": "2026-08-18 13:44:29 UTC",
+            "last_seen": "2026-08-18 14:44:37 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15102,7 +16840,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:44 UTC",
-            "last_seen": "2026-08-18 13:44:25 UTC",
+            "last_seen": "2026-08-18 14:44:33 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15126,7 +16864,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:44 UTC",
-            "last_seen": "2026-08-18 13:44:26 UTC",
+            "last_seen": "2026-08-18 14:44:33 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15150,7 +16888,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:40 UTC",
-            "last_seen": "2026-08-18 13:44:22 UTC",
+            "last_seen": "2026-08-18 14:44:30 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15173,7 +16911,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:38 UTC",
-            "last_seen": "2026-08-18 13:44:21 UTC",
+            "last_seen": "2026-08-18 14:44:28 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15195,7 +16933,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:30 UTC",
-            "last_seen": "2026-08-18 13:44:14 UTC",
+            "last_seen": "2026-08-18 14:44:21 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15219,7 +16957,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:25 UTC",
-            "last_seen": "2026-08-18 13:44:11 UTC",
+            "last_seen": "2026-08-18 14:44:18 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15243,7 +16981,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:18 UTC",
-            "last_seen": "2026-08-18 13:44:06 UTC",
+            "last_seen": "2026-08-18 14:44:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15267,7 +17005,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:18 UTC",
-            "last_seen": "2026-08-18 13:44:06 UTC",
+            "last_seen": "2026-08-18 14:44:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15291,7 +17029,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:44:18 UTC",
-            "last_seen": "2026-08-18 13:44:06 UTC",
+            "last_seen": "2026-08-18 14:44:12 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15315,7 +17053,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:43:52 UTC",
-            "last_seen": "2026-08-18 13:43:45 UTC",
+            "last_seen": "2026-08-18 14:43:48 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15339,7 +17077,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:43:37 UTC",
-            "last_seen": "2026-08-18 13:43:32 UTC",
+            "last_seen": "2026-08-18 14:43:34 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15363,7 +17101,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:43:30 UTC",
-            "last_seen": "2026-08-18 13:43:26 UTC",
+            "last_seen": "2026-08-18 14:43:28 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -15386,7 +17124,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-18 09:43:14 UTC",
-            "last_seen": "2026-08-18 13:43:13 UTC",
+            "last_seen": "2026-08-18 14:43:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -29172,7 +30910,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:36 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:21:38 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -29277,7 +31015,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:35 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:21:38 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -29298,7 +31036,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:35 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:21:39 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -29613,7 +31351,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:34 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:16:37 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -29739,7 +31477,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:34 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:16:37 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -29802,7 +31540,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:34 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:16:37 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -29991,7 +31729,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:01:06 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30012,7 +31750,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:59 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30033,7 +31771,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:57 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30075,7 +31813,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:58 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30180,7 +31918,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:41:00 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30201,7 +31939,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:01:05 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30222,7 +31960,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:41:00 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30243,7 +31981,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:33 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:59 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30264,7 +32002,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:32 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:59 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30348,7 +32086,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:32 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:58 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30390,7 +32128,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:32 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:51:02 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30411,7 +32149,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:32 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:59 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30474,7 +32212,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:32 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:51:01 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30558,7 +32296,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:32 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:51:04 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30642,7 +32380,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:01:05 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30705,7 +32443,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:41:00 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30768,7 +32506,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:41:00 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30810,7 +32548,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:58 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30873,7 +32611,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:57 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30936,7 +32674,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:51:04 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -30957,7 +32695,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:31 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:40:57 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -31146,7 +32884,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:20:30 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 14:30:56 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -32679,7 +34417,7 @@
             "confidence_level": 75,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:19:36 UTC",
-            "last_seen": "2026-08-18 07:20:32 UTC",
+            "last_seen": "2026-08-18 14:51:04 UTC",
             "reference": "",
             "reporter": "varysz",
             "tags": [
@@ -44819,7 +46557,7 @@
             "confidence_level": 100,
             "is_compromised": true,
             "first_seen": "2026-08-18 07:05:10 UTC",
-            "last_seen": "2026-08-18 13:47:16 UTC",
+            "last_seen": "2026-08-18 14:47:45 UTC",
             "reference": null,
             "reporter": "anonymous",
             "tags": [
@@ -45776,7 +47514,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:12 UTC",
-            "last_seen": "2026-08-18 13:57:56 UTC",
+            "last_seen": "2026-08-18 15:06:54 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -45798,7 +47536,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:11 UTC",
-            "last_seen": "2026-08-18 13:57:26 UTC",
+            "last_seen": "2026-08-18 15:05:17 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -45820,7 +47558,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:11 UTC",
-            "last_seen": "2026-08-18 13:58:09 UTC",
+            "last_seen": "2026-08-18 14:34:34 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -45842,7 +47580,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:10 UTC",
-            "last_seen": "2026-08-18 14:29:42 UTC",
+            "last_seen": "2026-08-18 15:05:04 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -45864,7 +47602,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:09 UTC",
-            "last_seen": "2026-08-18 13:55:35 UTC",
+            "last_seen": "2026-08-18 15:06:42 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -45886,7 +47624,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:08 UTC",
-            "last_seen": "2026-08-18 13:25:18 UTC",
+            "last_seen": "2026-08-18 15:04:37 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -45930,7 +47668,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:25:04 UTC",
-            "last_seen": "2026-08-18 13:55:22 UTC",
+            "last_seen": "2026-08-18 15:04:50 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -46131,7 +47869,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:24:56 UTC",
-            "last_seen": "2026-08-18 13:55:57 UTC",
+            "last_seen": "2026-08-18 15:06:30 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -46175,7 +47913,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-18 05:24:55 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-18 15:06:01 UTC",
             "reference": null,
             "reporter": "Bitsight",
             "tags": [
@@ -49644,7 +51382,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:46:54 UTC",
-            "last_seen": "2026-08-18 13:46:43 UTC",
+            "last_seen": "2026-08-18 14:47:11 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49668,7 +51406,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:46:42 UTC",
-            "last_seen": "2026-08-18 13:46:32 UTC",
+            "last_seen": "2026-08-18 14:46:57 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49690,7 +51428,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:46:32 UTC",
-            "last_seen": "2026-08-18 13:46:22 UTC",
+            "last_seen": "2026-08-18 14:46:46 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49713,7 +51451,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:46:21 UTC",
-            "last_seen": "2026-08-18 13:46:12 UTC",
+            "last_seen": "2026-08-18 14:46:35 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49736,7 +51474,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:46:21 UTC",
-            "last_seen": "2026-08-18 13:46:12 UTC",
+            "last_seen": "2026-08-18 14:46:35 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49759,7 +51497,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:46:15 UTC",
-            "last_seen": "2026-08-18 13:46:07 UTC",
+            "last_seen": "2026-08-18 14:46:29 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49783,7 +51521,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:45:59 UTC",
-            "last_seen": "2026-08-18 13:45:52 UTC",
+            "last_seen": "2026-08-18 14:46:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49806,7 +51544,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:45:42 UTC",
-            "last_seen": "2026-08-18 13:45:35 UTC",
+            "last_seen": "2026-08-18 14:45:51 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49830,7 +51568,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:45:42 UTC",
-            "last_seen": "2026-08-18 13:45:35 UTC",
+            "last_seen": "2026-08-18 14:45:51 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49854,7 +51592,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:57 UTC",
-            "last_seen": "2026-08-18 13:44:53 UTC",
+            "last_seen": "2026-08-18 14:45:10 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49877,7 +51615,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:49 UTC",
-            "last_seen": "2026-08-18 13:44:46 UTC",
+            "last_seen": "2026-08-18 14:44:56 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49899,7 +51637,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:41 UTC",
-            "last_seen": "2026-08-18 13:44:37 UTC",
+            "last_seen": "2026-08-18 14:44:46 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49923,7 +51661,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:40 UTC",
-            "last_seen": "2026-08-18 13:44:37 UTC",
+            "last_seen": "2026-08-18 14:44:45 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49945,7 +51683,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:19 UTC",
-            "last_seen": "2026-08-18 13:44:16 UTC",
+            "last_seen": "2026-08-18 14:44:22 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49968,7 +51706,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:16 UTC",
-            "last_seen": "2026-08-18 13:44:13 UTC",
+            "last_seen": "2026-08-18 14:44:19 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -49991,7 +51729,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:12 UTC",
-            "last_seen": "2026-08-18 13:44:09 UTC",
+            "last_seen": "2026-08-18 14:44:15 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50015,7 +51753,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:44:00 UTC",
-            "last_seen": "2026-08-18 13:43:57 UTC",
+            "last_seen": "2026-08-18 14:44:02 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50037,7 +51775,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:56 UTC",
-            "last_seen": "2026-08-18 13:43:54 UTC",
+            "last_seen": "2026-08-18 14:43:57 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50059,7 +51797,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:48 UTC",
-            "last_seen": "2026-08-18 13:43:46 UTC",
+            "last_seen": "2026-08-18 14:43:49 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50081,7 +51819,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:47 UTC",
-            "last_seen": "2026-08-18 13:43:44 UTC",
+            "last_seen": "2026-08-18 14:43:48 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50103,7 +51841,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:47 UTC",
-            "last_seen": "2026-08-18 13:43:45 UTC",
+            "last_seen": "2026-08-18 14:43:48 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50125,7 +51863,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:46 UTC",
-            "last_seen": "2026-08-18 13:43:44 UTC",
+            "last_seen": "2026-08-18 14:43:47 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50147,7 +51885,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:46 UTC",
-            "last_seen": "2026-08-18 13:43:44 UTC",
+            "last_seen": "2026-08-18 14:43:47 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50169,7 +51907,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:44 UTC",
-            "last_seen": "2026-08-18 13:43:42 UTC",
+            "last_seen": "2026-08-18 14:43:45 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50193,7 +51931,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:44 UTC",
-            "last_seen": "2026-08-18 13:43:42 UTC",
+            "last_seen": "2026-08-18 14:43:45 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50217,7 +51955,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:25 UTC",
-            "last_seen": "2026-08-18 13:43:24 UTC",
+            "last_seen": "2026-08-18 14:43:26 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50241,7 +51979,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:25 UTC",
-            "last_seen": "2026-08-18 13:43:24 UTC",
+            "last_seen": "2026-08-18 14:43:26 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50265,7 +52003,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:23 UTC",
-            "last_seen": "2026-08-18 13:43:23 UTC",
+            "last_seen": "2026-08-18 14:43:24 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50289,7 +52027,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:23 UTC",
-            "last_seen": "2026-08-18 13:43:23 UTC",
+            "last_seen": "2026-08-18 14:43:24 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -50313,7 +52051,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-17 19:43:12 UTC",
-            "last_seen": "2026-08-18 13:43:13 UTC",
+            "last_seen": "2026-08-18 14:43:13 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -61239,183 +62977,6 @@
             "reporter": "varysz",
             "tags": [
                 "SmartApeSG"
-            ]
-        },
-        {
-            "id": "1878061",
-            "ioc": "myhandyplus.ch",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "unknown",
-            "malware_printable": "Unknown malware",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
-            "confidence_level": 90,
-            "is_compromised": true,
-            "first_seen": "2026-08-17 15:25:28 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "compromised",
-                "etherhiding"
-            ]
-        },
-        {
-            "id": "1878058",
-            "ioc": "8cos2bio.en-us-superbrain.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-08-17 15:13:06 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake",
-                "mac-0x68dc",
-                "macOS"
-            ]
-        },
-        {
-            "id": "1878057",
-            "ioc": "huber-holzbau.ch",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 90,
-            "is_compromised": true,
-            "first_seen": "2026-08-17 15:05:26 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "compromised",
-                "ErrTraffic"
-            ]
-        },
-        {
-            "id": "1878056",
-            "ioc": "38.54.95.51:8443",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-08-17 15:05:05 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1878053",
-            "ioc": "43.128.113.133:8443",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "elf.aisuru",
-            "malware_printable": "Aisuru",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/elf.aisuru",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-08-17 15:00:38 UTC",
-            "last_seen": "2026-08-18 07:09:11 UTC",
-            "reference": null,
-            "reporter": "Bitsight",
-            "tags": [
-                "AISURU",
-                "c2"
-            ]
-        },
-        {
-            "id": "1878054",
-            "ioc": "43.129.180.120:8080",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "elf.aisuru",
-            "malware_printable": "Aisuru",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/elf.aisuru",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-08-17 15:00:38 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "Bitsight",
-            "tags": [
-                "AISURU",
-                "c2"
-            ]
-        },
-        {
-            "id": "1878055",
-            "ioc": "naturhouse.ch",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 90,
-            "is_compromised": true,
-            "first_seen": "2026-08-17 14:59:37 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "compromised",
-                "etherhide"
-            ]
-        },
-        {
-            "id": "1878052",
-            "ioc": "hsxhsodcx.eng-eng-slimsounds.com",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain name that delivers a malware payload",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 100,
-            "is_compromised": false,
-            "first_seen": "2026-08-17 14:46:33 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake",
-                "win-0xa770",
-                "Windows"
             ]
         }
     ]
