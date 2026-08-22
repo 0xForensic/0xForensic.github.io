@@ -2,6 +2,145 @@
     "query_status": "ok",
     "data": [
         {
+            "id": "1884079",
+            "ioc": "p7yjux0i.en-en-usa-memorylift.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-08-22 03:13:56 UTC",
+            "last_seen": "2026-08-22 03:14:08 UTC",
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake",
+                "mac-0x0f14",
+                "macOS"
+            ]
+        },
+        {
+            "id": "1884077",
+            "ioc": "169.239.128.75:8082",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.vshell",
+            "malware_printable": "VShell",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-22 03:05:05 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "Vshell"
+            ]
+        },
+        {
+            "id": "1884078",
+            "ioc": "185.242.3.178:80",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "ip:port",
+            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
+            "malware": "win.vshell",
+            "malware_printable": "VShell",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-22 03:05:05 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "Vshell"
+            ]
+        },
+        {
+            "id": "1884076",
+            "ioc": "6hbt9k7l.eng-en-bloodarmor.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": false,
+            "first_seen": "2026-08-22 02:58:50 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "anonymous",
+            "tags": [
+                "ClearFake",
+                "mac-0x68dc",
+                "macOS"
+            ]
+        },
+        {
+            "id": "1884075",
+            "ioc": "ustux26575.workers.dev",
+            "threat_type": "botnet_cc",
+            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
+            "malware": "php.shin_webshell",
+            "malware_printable": "php.shin_webshell",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/php.shin_webshell",
+            "confidence_level": 50,
+            "is_compromised": true,
+            "first_seen": "2026-08-22 02:57:30 UTC",
+            "last_seen": null,
+            "reference": null,
+            "reporter": "xscon",
+            "tags": [
+                "Cloudflare",
+                "gif",
+                "PHP",
+                "webshell",
+                "WordPress",
+                "workers.dev",
+                "wp-admin"
+            ]
+        },
+        {
+            "id": "1884074",
+            "ioc": "eng-en-bloodarmor.com",
+            "threat_type": "payload_delivery",
+            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
+            "ioc_type": "domain",
+            "ioc_type_desc": "Domain name that delivers a malware payload",
+            "malware": "js.clearfake",
+            "malware_printable": "ClearFake",
+            "malware_alias": null,
+            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
+            "confidence_level": 100,
+            "is_compromised": true,
+            "first_seen": "2026-08-22 02:57:03 UTC",
+            "last_seen": "2026-08-22 02:57:09 UTC",
+            "reference": null,
+            "reporter": "Gi7w0rm",
+            "tags": [
+                "22August2026",
+                "ClearFake",
+                "Commandline",
+                "macOS"
+            ]
+        },
+        {
             "id": "1884073",
             "ioc": "gelamehmobl.com",
             "threat_type": "payload_delivery",
@@ -3885,7 +4024,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-21 17:25:29 UTC",
-            "last_seen": "2026-08-22 02:50:36 UTC",
+            "last_seen": "2026-08-22 03:35:33 UTC",
             "reference": "https:\/\/bazaar.abuse.ch\/sample\/e3ecc6938dd5234a75a8fda454717bba20897d6aa12b9a324b5f81305d1f7d66\/",
             "reporter": "abuse_ch",
             "tags": [
@@ -3906,7 +4045,7 @@
             "confidence_level": 75,
             "is_compromised": false,
             "first_seen": "2026-08-21 17:25:27 UTC",
-            "last_seen": "2026-08-22 02:50:35 UTC",
+            "last_seen": "2026-08-22 03:35:32 UTC",
             "reference": "https:\/\/bazaar.abuse.ch\/sample\/e3ecc6938dd5234a75a8fda454717bba20897d6aa12b9a324b5f81305d1f7d66\/",
             "reporter": "abuse_ch",
             "tags": [
@@ -8807,7 +8946,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-21 08:50:13 UTC",
-            "last_seen": "2026-08-22 02:49:45 UTC",
+            "last_seen": "2026-08-22 03:38:37 UTC",
             "reference": "",
             "reporter": "crep1x",
             "tags": [
@@ -9822,7 +9961,7 @@
             "confidence_level": 100,
             "is_compromised": false,
             "first_seen": "2026-08-21 07:57:04 UTC",
-            "last_seen": null,
+            "last_seen": "2026-08-22 03:05:05 UTC",
             "reference": null,
             "reporter": "abuse_ch",
             "tags": [
@@ -12510,93 +12649,6 @@
                 "ClearFake",
                 "mac-0x68dc",
                 "macOS"
-            ]
-        },
-        {
-            "id": "1883558",
-            "ioc": "pidorsas.site",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "domain",
-            "ioc_type_desc": "Domain that is used for botnet Command&control (C&C)",
-            "malware": "js.clearfake",
-            "malware_printable": "ClearFake",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/js.clearfake",
-            "confidence_level": 90,
-            "is_compromised": false,
-            "first_seen": "2026-08-21 03:23:14 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "ClearFake",
-                "ClickFix",
-                "ErrTraffic",
-                "etherhiding"
-            ]
-        },
-        {
-            "id": "1883557",
-            "ioc": "211.101.235.94:8088",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-08-21 03:05:06 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1883556",
-            "ioc": "43.136.76.42:8080",
-            "threat_type": "botnet_cc",
-            "threat_type_desc": "Indicator that identifies a botnet command&control server (C&C)",
-            "ioc_type": "ip:port",
-            "ioc_type_desc": "ip:port combination that is used for botnet Command&control (C&C)",
-            "malware": "win.vshell",
-            "malware_printable": "VShell",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/win.vshell",
-            "confidence_level": 100,
-            "is_compromised": true,
-            "first_seen": "2026-08-21 03:05:05 UTC",
-            "last_seen": null,
-            "reference": null,
-            "reporter": "anonymous",
-            "tags": [
-                "Vshell"
-            ]
-        },
-        {
-            "id": "1883555",
-            "ioc": "https:\/\/rblxgivex.com\/",
-            "threat_type": "payload_delivery",
-            "threat_type_desc": "Indicator that identifies a malware distribution server (payload delivery)",
-            "ioc_type": "url",
-            "ioc_type_desc": "URL that delivers a malware payload",
-            "malware": "unknown",
-            "malware_printable": "Unknown malware",
-            "malware_alias": null,
-            "malware_malpedia": "https:\/\/malpedia.caad.fkie.fraunhofer.de\/details\/unknown",
-            "confidence_level": 90,
-            "is_compromised": false,
-            "first_seen": "2026-08-21 03:00:07 UTC",
-            "last_seen": null,
-            "reference": "https:\/\/clickfix.carsonww.com\/domains\/rblxgivex.com",
-            "reporter": "CarsonWilliams",
-            "tags": [
-                "ClickFix"
             ]
         }
     ]
